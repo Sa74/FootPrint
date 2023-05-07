@@ -17,6 +17,8 @@
 		254B33D62A0803110097DDF3 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33D32A0803110097DDF3 /* NetworkHandler.swift */; };
 		254B33D72A0803110097DDF3 /* URLSession+AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33D42A0803110097DDF3 /* URLSession+AnyPublisher.swift */; };
 		254B33D82A0803110097DDF3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33D52A0803110097DDF3 /* Endpoint.swift */; };
+		254B33DC2A0803CF0097DDF3 /* FlickerPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33DA2A0803CF0097DDF3 /* FlickerPhoto.swift */; };
+		254B33DD2A0803CF0097DDF3 /* ActivityPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33DB2A0803CF0097DDF3 /* ActivityPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		254B33D32A0803110097DDF3 /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		254B33D42A0803110097DDF3 /* URLSession+AnyPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+AnyPublisher.swift"; sourceTree = "<group>"; };
 		254B33D52A0803110097DDF3 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		254B33DA2A0803CF0097DDF3 /* FlickerPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerPhoto.swift; sourceTree = "<group>"; };
+		254B33DB2A0803CF0097DDF3 /* ActivityPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		254B33A72A0802490097DDF3 /* FootPrint */ = {
 			isa = PBXGroup;
 			children = (
+				254B33D92A0803CF0097DDF3 /* Model */,
 				254B33D22A0803110097DDF3 /* Network */,
 				254B33A82A0802490097DDF3 /* FootPrintApp.swift */,
 				254B33AA2A0802490097DDF3 /* ContentView.swift */,
@@ -142,6 +147,15 @@
 				254B33D52A0803110097DDF3 /* Endpoint.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		254B33D92A0803CF0097DDF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				254B33DA2A0803CF0097DDF3 /* FlickerPhoto.swift */,
+				254B33DB2A0803CF0097DDF3 /* ActivityPhoto.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +291,8 @@
 				254B33D72A0803110097DDF3 /* URLSession+AnyPublisher.swift in Sources */,
 				254B33AB2A0802490097DDF3 /* ContentView.swift in Sources */,
 				254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */,
+				254B33DC2A0803CF0097DDF3 /* FlickerPhoto.swift in Sources */,
+				254B33DD2A0803CF0097DDF3 /* ActivityPhoto.swift in Sources */,
 				254B33D62A0803110097DDF3 /* NetworkHandler.swift in Sources */,
 				254B33D82A0803110097DDF3 /* Endpoint.swift in Sources */,
 			);
