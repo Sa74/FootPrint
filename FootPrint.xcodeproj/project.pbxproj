@@ -15,10 +15,16 @@
 		252D61A22A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */; };
 		252D61A32A080A7200F1B9FB /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */; };
 		252D61A52A080C3B00F1B9FB /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252D61A42A080C3B00F1B9FB /* placeholder.jpg */; };
+		252D61A92A080DF300F1B9FB /* flicker_mock_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 252D61A82A080DF300F1B9FB /* flicker_mock_response.json */; };
+		252D61AE2A080E0700F1B9FB /* LocationManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61AB2A080E0700F1B9FB /* LocationManagerMock.swift */; };
+		252D61AF2A080E0700F1B9FB /* Bundle+FileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61AC2A080E0700F1B9FB /* Bundle+FileContent.swift */; };
+		252D61B02A080E0700F1B9FB /* NetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61AD2A080E0700F1B9FB /* NetworkMock.swift */; };
+		252D61B42A080E7300F1B9FB /* ActivityTrackingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61B12A080E7300F1B9FB /* ActivityTrackingControllerTests.swift */; };
+		252D61B52A080E7300F1B9FB /* FlickerPhotoDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61B22A080E7300F1B9FB /* FlickerPhotoDownloaderTests.swift */; };
+		252D61B62A080E7300F1B9FB /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61B32A080E7300F1B9FB /* ActivityViewModelTests.swift */; };
 		254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33A82A0802490097DDF3 /* FootPrintApp.swift */; };
 		254B33AD2A08024A0097DDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AC2A08024A0097DDF3 /* Assets.xcassets */; };
 		254B33B02A08024A0097DDF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AF2A08024A0097DDF3 /* Preview Assets.xcassets */; };
-		254B33BA2A08024A0097DDF3 /* FootPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33B92A08024A0097DDF3 /* FootPrintTests.swift */; };
 		254B33C42A08024A0097DDF3 /* FootPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33C32A08024A0097DDF3 /* FootPrintUITests.swift */; };
 		254B33C62A08024A0097DDF3 /* FootPrintUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33C52A08024A0097DDF3 /* FootPrintUITestsLaunchTests.swift */; };
 		254B33D62A0803110097DDF3 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33D32A0803110097DDF3 /* NetworkHandler.swift */; };
@@ -55,12 +61,18 @@
 		252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
 		252D61A42A080C3B00F1B9FB /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		252D61A62A080C4700F1B9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		252D61A82A080DF300F1B9FB /* flicker_mock_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flicker_mock_response.json; sourceTree = "<group>"; };
+		252D61AB2A080E0700F1B9FB /* LocationManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerMock.swift; sourceTree = "<group>"; };
+		252D61AC2A080E0700F1B9FB /* Bundle+FileContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+FileContent.swift"; sourceTree = "<group>"; };
+		252D61AD2A080E0700F1B9FB /* NetworkMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMock.swift; sourceTree = "<group>"; };
+		252D61B12A080E7300F1B9FB /* ActivityTrackingControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTrackingControllerTests.swift; sourceTree = "<group>"; };
+		252D61B22A080E7300F1B9FB /* FlickerPhotoDownloaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerPhotoDownloaderTests.swift; sourceTree = "<group>"; };
+		252D61B32A080E7300F1B9FB /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
 		254B33A52A0802490097DDF3 /* FootPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254B33A82A0802490097DDF3 /* FootPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintApp.swift; sourceTree = "<group>"; };
 		254B33AC2A08024A0097DDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254B33AF2A08024A0097DDF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		254B33B52A08024A0097DDF3 /* FootPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		254B33B92A08024A0097DDF3 /* FootPrintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintTests.swift; sourceTree = "<group>"; };
 		254B33BF2A08024A0097DDF3 /* FootPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		254B33C32A08024A0097DDF3 /* FootPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintUITests.swift; sourceTree = "<group>"; };
 		254B33C52A08024A0097DDF3 /* FootPrintUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -133,6 +145,24 @@
 			path = ../../../Komoot/Komoot/Helper;
 			sourceTree = "<group>";
 		};
+		252D61A72A080DF300F1B9FB /* MockResponse */ = {
+			isa = PBXGroup;
+			children = (
+				252D61A82A080DF300F1B9FB /* flicker_mock_response.json */,
+			);
+			path = MockResponse;
+			sourceTree = "<group>";
+		};
+		252D61AA2A080E0700F1B9FB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				252D61AC2A080E0700F1B9FB /* Bundle+FileContent.swift */,
+				252D61AB2A080E0700F1B9FB /* LocationManagerMock.swift */,
+				252D61AD2A080E0700F1B9FB /* NetworkMock.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		254B339C2A0802490097DDF3 = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +211,11 @@
 		254B33B82A08024A0097DDF3 /* FootPrintTests */ = {
 			isa = PBXGroup;
 			children = (
-				254B33B92A08024A0097DDF3 /* FootPrintTests.swift */,
+				252D61B12A080E7300F1B9FB /* ActivityTrackingControllerTests.swift */,
+				252D61B32A080E7300F1B9FB /* ActivityViewModelTests.swift */,
+				252D61B22A080E7300F1B9FB /* FlickerPhotoDownloaderTests.swift */,
+				252D61AA2A080E0700F1B9FB /* Helper */,
+				252D61A72A080DF300F1B9FB /* MockResponse */,
 			);
 			path = FootPrintTests;
 			sourceTree = "<group>";
@@ -328,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252D61A92A080DF300F1B9FB /* flicker_mock_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +400,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254B33BA2A08024A0097DDF3 /* FootPrintTests.swift in Sources */,
+				252D61B02A080E0700F1B9FB /* NetworkMock.swift in Sources */,
+				252D61AE2A080E0700F1B9FB /* LocationManagerMock.swift in Sources */,
+				252D61B52A080E7300F1B9FB /* FlickerPhotoDownloaderTests.swift in Sources */,
+				252D61AF2A080E0700F1B9FB /* Bundle+FileContent.swift in Sources */,
+				252D61B42A080E7300F1B9FB /* ActivityTrackingControllerTests.swift in Sources */,
+				252D61B62A080E7300F1B9FB /* ActivityViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

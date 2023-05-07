@@ -1,0 +1,25 @@
+{
+  "photos": {
+    "page": 1,
+    "pages": 1000,
+    "perpage": 1,
+    "total": 1000,
+    "photo": [
+      {
+        "id": "52857510483",
+        "owner": "187226671@N07",
+        "secret": "f878b390f1",
+        "server": "65535",
+        "farm": 66,
+        "title": "snapshot",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "url_c": "https://live.staticflickr.com/65535/52858607331_35f0e58f06_c.jpg",
+        "height_c": 434,
+        "width_c": 800
+      }
+    ]
+  },
+  "stat": "ok"
+}
