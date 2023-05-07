@@ -11,7 +11,7 @@ import SwiftUI
 struct FootPrintApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActivityView()
         }
     }
 }

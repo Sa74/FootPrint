@@ -14,6 +14,7 @@
 		252D61A12A080A7200F1B9FB /* Image+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D619E2A080A7200F1B9FB /* Image+Default.swift */; };
 		252D61A22A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */; };
 		252D61A32A080A7200F1B9FB /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */; };
+		252D61A52A080C3B00F1B9FB /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252D61A42A080C3B00F1B9FB /* placeholder.jpg */; };
 		254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33A82A0802490097DDF3 /* FootPrintApp.swift */; };
 		254B33AD2A08024A0097DDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AC2A08024A0097DDF3 /* Assets.xcassets */; };
 		254B33B02A08024A0097DDF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AF2A08024A0097DDF3 /* Preview Assets.xcassets */; };
@@ -52,6 +53,8 @@
 		252D619E2A080A7200F1B9FB /* Image+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Default.swift"; sourceTree = "<group>"; };
 		252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Key.swift"; sourceTree = "<group>"; };
 		252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
+		252D61A42A080C3B00F1B9FB /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		252D61A62A080C4700F1B9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		254B33A52A0802490097DDF3 /* FootPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254B33A82A0802490097DDF3 /* FootPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintApp.swift; sourceTree = "<group>"; };
 		254B33AC2A08024A0097DDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 		254B33A72A0802490097DDF3 /* FootPrint */ = {
 			isa = PBXGroup;
 			children = (
+				252D61A62A080C4700F1B9FB /* Info.plist */,
 				254B33D92A0803CF0097DDF3 /* Model */,
 				254B33D22A0803110097DDF3 /* Network */,
 				252D61922A08097200F1B9FB /* View */,
@@ -160,6 +164,7 @@
 				252D619D2A080A7200F1B9FB /* Helper */,
 				254B33A82A0802490097DDF3 /* FootPrintApp.swift */,
 				254B33AC2A08024A0097DDF3 /* Assets.xcassets */,
+				252D61A42A080C3B00F1B9FB /* placeholder.jpg */,
 				254B33AE2A08024A0097DDF3 /* Preview Content */,
 			);
 			path = FootPrint;
@@ -314,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				254B33B02A08024A0097DDF3 /* Preview Assets.xcassets in Resources */,
+				252D61A52A080C3B00F1B9FB /* placeholder.jpg in Resources */,
 				254B33AD2A08024A0097DDF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +519,9 @@
 				DEVELOPMENT_TEAM = YBX6HFH9NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootPrint/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FootPrint requires location access to track your activities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FootPrint requires location access to track your activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -542,6 +551,9 @@
 				DEVELOPMENT_TEAM = YBX6HFH9NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootPrint/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FootPrint requires location access to track your activities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FootPrint requires location access to track your activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
