@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		252D61942A08097200F1B9FB /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61932A08097200F1B9FB /* ActivityView.swift */; };
+		252D619A2A0809D500F1B9FB /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61962A0809D500F1B9FB /* ActivityViewModel.swift */; };
+		252D619B2A0809D500F1B9FB /* FlickerPhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61982A0809D500F1B9FB /* FlickerPhotoDownloader.swift */; };
+		252D619C2A0809D500F1B9FB /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61992A0809D500F1B9FB /* ActivityTrackingController.swift */; };
 		254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33A82A0802490097DDF3 /* FootPrintApp.swift */; };
 		254B33AB2A0802490097DDF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33AA2A0802490097DDF3 /* ContentView.swift */; };
 		254B33AD2A08024A0097DDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AC2A08024A0097DDF3 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		252D61932A08097200F1B9FB /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		252D61962A0809D500F1B9FB /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		252D61982A0809D500F1B9FB /* FlickerPhotoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerPhotoDownloader.swift; sourceTree = "<group>"; };
+		252D61992A0809D500F1B9FB /* ActivityTrackingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
 		254B33A52A0802490097DDF3 /* FootPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254B33A82A0802490097DDF3 /* FootPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintApp.swift; sourceTree = "<group>"; };
 		254B33AA2A0802490097DDF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		252D61952A0809D500F1B9FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				252D61962A0809D500F1B9FB /* ActivityViewModel.swift */,
+				252D61972A0809D500F1B9FB /* Controller */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		252D61972A0809D500F1B9FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				252D61982A0809D500F1B9FB /* FlickerPhotoDownloader.swift */,
+				252D61992A0809D500F1B9FB /* ActivityTrackingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		254B339C2A0802490097DDF3 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +141,7 @@
 				254B33D92A0803CF0097DDF3 /* Model */,
 				254B33D22A0803110097DDF3 /* Network */,
 				252D61922A08097200F1B9FB /* View */,
+				252D61952A0809D500F1B9FB /* ViewModel */,
 				254B33A82A0802490097DDF3 /* FootPrintApp.swift */,
 				254B33AA2A0802490097DDF3 /* ContentView.swift */,
 				254B33AC2A08024A0097DDF3 /* Assets.xcassets */,
@@ -300,13 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				254B33D72A0803110097DDF3 /* URLSession+AnyPublisher.swift in Sources */,
+				252D619C2A0809D500F1B9FB /* ActivityTrackingController.swift in Sources */,
 				254B33AB2A0802490097DDF3 /* ContentView.swift in Sources */,
+				252D619B2A0809D500F1B9FB /* FlickerPhotoDownloader.swift in Sources */,
 				254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */,
 				254B33DC2A0803CF0097DDF3 /* FlickerPhoto.swift in Sources */,
 				254B33DD2A0803CF0097DDF3 /* ActivityPhoto.swift in Sources */,
 				252D61942A08097200F1B9FB /* ActivityView.swift in Sources */,
 				254B33D62A0803110097DDF3 /* NetworkHandler.swift in Sources */,
 				254B33D82A0803110097DDF3 /* Endpoint.swift in Sources */,
+				252D619A2A0809D500F1B9FB /* ActivityViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
