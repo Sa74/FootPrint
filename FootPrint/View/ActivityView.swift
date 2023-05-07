@@ -163,7 +163,7 @@ extension ActivityView {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ActivityView_Previews: PreviewProvider {
     static var previews: some View {
         ActivityView()
     }

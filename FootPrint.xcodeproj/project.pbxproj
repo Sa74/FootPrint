@@ -11,8 +11,10 @@
 		252D619A2A0809D500F1B9FB /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61962A0809D500F1B9FB /* ActivityViewModel.swift */; };
 		252D619B2A0809D500F1B9FB /* FlickerPhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61982A0809D500F1B9FB /* FlickerPhotoDownloader.swift */; };
 		252D619C2A0809D500F1B9FB /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61992A0809D500F1B9FB /* ActivityTrackingController.swift */; };
+		252D61A12A080A7200F1B9FB /* Image+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D619E2A080A7200F1B9FB /* Image+Default.swift */; };
+		252D61A22A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */; };
+		252D61A32A080A7200F1B9FB /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */; };
 		254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33A82A0802490097DDF3 /* FootPrintApp.swift */; };
-		254B33AB2A0802490097DDF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33AA2A0802490097DDF3 /* ContentView.swift */; };
 		254B33AD2A08024A0097DDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AC2A08024A0097DDF3 /* Assets.xcassets */; };
 		254B33B02A08024A0097DDF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B33AF2A08024A0097DDF3 /* Preview Assets.xcassets */; };
 		254B33BA2A08024A0097DDF3 /* FootPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B33B92A08024A0097DDF3 /* FootPrintTests.swift */; };
@@ -47,9 +49,11 @@
 		252D61962A0809D500F1B9FB /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
 		252D61982A0809D500F1B9FB /* FlickerPhotoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerPhotoDownloader.swift; sourceTree = "<group>"; };
 		252D61992A0809D500F1B9FB /* ActivityTrackingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
+		252D619E2A080A7200F1B9FB /* Image+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Default.swift"; sourceTree = "<group>"; };
+		252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Key.swift"; sourceTree = "<group>"; };
+		252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
 		254B33A52A0802490097DDF3 /* FootPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254B33A82A0802490097DDF3 /* FootPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootPrintApp.swift; sourceTree = "<group>"; };
-		254B33AA2A0802490097DDF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		254B33AC2A08024A0097DDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254B33AF2A08024A0097DDF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		254B33B52A08024A0097DDF3 /* FootPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		252D619D2A080A7200F1B9FB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				252D619E2A080A7200F1B9FB /* Image+Default.swift */,
+				252D619F2A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift */,
+				252D61A02A080A7200F1B9FB /* TimeInterval+String.swift */,
+			);
+			name = Helper;
+			path = ../../../Komoot/Komoot/Helper;
+			sourceTree = "<group>";
+		};
 		254B339C2A0802490097DDF3 = {
 			isa = PBXGroup;
 			children = (
@@ -142,8 +157,8 @@
 				254B33D22A0803110097DDF3 /* Network */,
 				252D61922A08097200F1B9FB /* View */,
 				252D61952A0809D500F1B9FB /* ViewModel */,
+				252D619D2A080A7200F1B9FB /* Helper */,
 				254B33A82A0802490097DDF3 /* FootPrintApp.swift */,
-				254B33AA2A0802490097DDF3 /* ContentView.swift */,
 				254B33AC2A08024A0097DDF3 /* Assets.xcassets */,
 				254B33AE2A08024A0097DDF3 /* Preview Content */,
 			);
@@ -326,13 +341,15 @@
 			files = (
 				254B33D72A0803110097DDF3 /* URLSession+AnyPublisher.swift in Sources */,
 				252D619C2A0809D500F1B9FB /* ActivityTrackingController.swift in Sources */,
-				254B33AB2A0802490097DDF3 /* ContentView.swift in Sources */,
+				252D61A22A080A7200F1B9FB /* CLLocationCoordinate2D+Key.swift in Sources */,
+				252D61A32A080A7200F1B9FB /* TimeInterval+String.swift in Sources */,
 				252D619B2A0809D500F1B9FB /* FlickerPhotoDownloader.swift in Sources */,
 				254B33A92A0802490097DDF3 /* FootPrintApp.swift in Sources */,
 				254B33DC2A0803CF0097DDF3 /* FlickerPhoto.swift in Sources */,
 				254B33DD2A0803CF0097DDF3 /* ActivityPhoto.swift in Sources */,
 				252D61942A08097200F1B9FB /* ActivityView.swift in Sources */,
 				254B33D62A0803110097DDF3 /* NetworkHandler.swift in Sources */,
+				252D61A12A080A7200F1B9FB /* Image+Default.swift in Sources */,
 				254B33D82A0803110097DDF3 /* Endpoint.swift in Sources */,
 				252D619A2A0809D500F1B9FB /* ActivityViewModel.swift in Sources */,
 			);
