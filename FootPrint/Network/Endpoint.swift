@@ -14,12 +14,14 @@ struct Endpoint {
 
 extension Endpoint {
 
+    static let apiKey = "YOUR_FLICKR_API_KEY"
+
     var url: URL {
         var components = URLComponents()
         components.scheme = "https"
         components.host = "www.flickr.com"
         components.path = "/services/rest/" + path
-        components.queryItems = queryItems
+        components.queryItems = [Endpoint.apiKeyQueryItem] + queryItems
 
         guard let url = components.url else {
             preconditionFailure(
@@ -32,7 +34,7 @@ extension Endpoint {
     static var apiKeyQueryItem: URLQueryItem {
         URLQueryItem(
             name: "api_key",
-            value: "33c7d9383079886ee5fe49f2e8bd52bb"
+            value: apiKey
         )
     }
 }

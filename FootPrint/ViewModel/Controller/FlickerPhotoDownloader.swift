@@ -40,7 +40,6 @@ extension Endpoint {
             path: "",
             queryItems: [
                 URLQueryItem(name: "method", value: "flickr.photos.search"),
-                Endpoint.apiKeyQueryItem,
                 URLQueryItem(name: "lat", value: "\(latitude)"),
                 URLQueryItem(name: "lon", value: "\(longitude)"),
                 URLQueryItem(name: "radius", value: "\(radiusInKm)"),
