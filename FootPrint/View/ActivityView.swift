@@ -85,6 +85,7 @@ struct ActivityView: View {
             }
             activityImageList
         }
+        .padding(.horizontal, 20)
     }
 
     private var activityImageList: some View {
